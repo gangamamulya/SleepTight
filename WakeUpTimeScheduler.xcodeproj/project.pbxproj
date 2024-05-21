@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59527882BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527872BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift */; };
+		D595278A2BFD2F6D0058269B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527892BFD2F6D0058269B /* ContentView.swift */; };
+		D595278C2BFD2F6F0058269B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D595278B2BFD2F6F0058269B /* Assets.xcassets */; };
+		D595278F2BFD2F6F0058269B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D595278E2BFD2F6F0058269B /* Preview Assets.xcassets */; };
+		D59527992BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527982BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift */; };
+		D59527A32BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527A22BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift */; };
+		D59527A52BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527A42BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59527952BFD2F6F0058269B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D595277C2BFD2F6D0058269B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59527832BFD2F6D0058269B;
+			remoteInfo = WakeUpTimeScheduler;
+		};
+		D595279F2BFD2F6F0058269B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D595277C2BFD2F6D0058269B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59527832BFD2F6D0058269B;
+			remoteInfo = WakeUpTimeScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59527842BFD2F6D0058269B /* WakeUpTimeScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpTimeScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59527872BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerApp.swift; sourceTree = "<group>"; };
+		D59527892BFD2F6D0058269B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D595278B2BFD2F6F0058269B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D595278E2BFD2F6F0058269B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D59527942BFD2F6F0058269B /* WakeUpTimeSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpTimeSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59527982BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerTests.swift; sourceTree = "<group>"; };
+		D595279E2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpTimeSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59527A22BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerUITests.swift; sourceTree = "<group>"; };
+		D59527A42BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59527812BFD2F6D0058269B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59527912BFD2F6F0058269B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D595279B2BFD2F6F0058269B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D595277B2BFD2F6D0058269B = {
+			isa = PBXGroup;
+			children = (
+				D59527862BFD2F6D0058269B /* WakeUpTimeScheduler */,
+				D59527972BFD2F6F0058269B /* WakeUpTimeSchedulerTests */,
+				D59527A12BFD2F6F0058269B /* WakeUpTimeSchedulerUITests */,
+				D59527852BFD2F6D0058269B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59527852BFD2F6D0058269B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59527842BFD2F6D0058269B /* WakeUpTimeScheduler.app */,
+				D59527942BFD2F6F0058269B /* WakeUpTimeSchedulerTests.xctest */,
+				D595279E2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59527862BFD2F6D0058269B /* WakeUpTimeScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				D59527872BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift */,
+				D59527892BFD2F6D0058269B /* ContentView.swift */,
+				D595278B2BFD2F6F0058269B /* Assets.xcassets */,
+				D595278D2BFD2F6F0058269B /* Preview Content */,
+			);
+			path = WakeUpTimeScheduler;
+			sourceTree = "<group>";
+		};
+		D595278D2BFD2F6F0058269B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D595278E2BFD2F6F0058269B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D59527972BFD2F6F0058269B /* WakeUpTimeSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59527982BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift */,
+			);
+			path = WakeUpTimeSchedulerTests;
+			sourceTree = "<group>";
+		};
+		D59527A12BFD2F6F0058269B /* WakeUpTimeSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D59527A22BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift */,
+				D59527A42BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift */,
+			);
+			path = WakeUpTimeSchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59527832BFD2F6D0058269B /* WakeUpTimeScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59527A82BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeScheduler" */;
+			buildPhases = (
+				D59527802BFD2F6D0058269B /* Sources */,
+				D59527812BFD2F6D0058269B /* Frameworks */,
+				D59527822BFD2F6D0058269B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeUpTimeScheduler;
+			productName = WakeUpTimeScheduler;
+			productReference = D59527842BFD2F6D0058269B /* WakeUpTimeScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59527932BFD2F6F0058269B /* WakeUpTimeSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59527AB2BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeSchedulerTests" */;
+			buildPhases = (
+				D59527902BFD2F6F0058269B /* Sources */,
+				D59527912BFD2F6F0058269B /* Frameworks */,
+				D59527922BFD2F6F0058269B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59527962BFD2F6F0058269B /* PBXTargetDependency */,
+			);
+			name = WakeUpTimeSchedulerTests;
+			productName = WakeUpTimeSchedulerTests;
+			productReference = D59527942BFD2F6F0058269B /* WakeUpTimeSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D595279D2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59527AE2BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeSchedulerUITests" */;
+			buildPhases = (
+				D595279A2BFD2F6F0058269B /* Sources */,
+				D595279B2BFD2F6F0058269B /* Frameworks */,
+				D595279C2BFD2F6F0058269B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59527A02BFD2F6F0058269B /* PBXTargetDependency */,
+			);
+			name = WakeUpTimeSchedulerUITests;
+			productName = WakeUpTimeSchedulerUITests;
+			productReference = D595279E2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D595277C2BFD2F6D0058269B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D59527832BFD2F6D0058269B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D59527932BFD2F6F0058269B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D59527832BFD2F6D0058269B;
+					};
+					D595279D2BFD2F6F0058269B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D59527832BFD2F6D0058269B;
+					};
+				};
+			};
+			buildConfigurationList = D595277F2BFD2F6D0058269B /* Build configuration list for PBXProject "WakeUpTimeScheduler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D595277B2BFD2F6D0058269B;
+			productRefGroup = D59527852BFD2F6D0058269B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59527832BFD2F6D0058269B /* WakeUpTimeScheduler */,
+				D59527932BFD2F6F0058269B /* WakeUpTimeSchedulerTests */,
+				D595279D2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59527822BFD2F6D0058269B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D595278F2BFD2F6F0058269B /* Preview Assets.xcassets in Resources */,
+				D595278C2BFD2F6F0058269B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59527922BFD2F6F0058269B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D595279C2BFD2F6F0058269B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59527802BFD2F6D0058269B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D595278A2BFD2F6D0058269B /* ContentView.swift in Sources */,
+				D59527882BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59527902BFD2F6F0058269B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59527992BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D595279A2BFD2F6F0058269B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59527A52BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift in Sources */,
+				D59527A32BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59527962BFD2F6F0058269B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59527832BFD2F6D0058269B /* WakeUpTimeScheduler */;
+			targetProxy = D59527952BFD2F6F0058269B /* PBXContainerItemProxy */;
+		};
+		D59527A02BFD2F6F0058269B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59527832BFD2F6D0058269B /* WakeUpTimeScheduler */;
+			targetProxy = D595279F2BFD2F6F0058269B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D59527A62BFD2F6F0058269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59527A72BFD2F6F0058269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59527A92BFD2F6F0058269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeUpTimeScheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D59527AA2BFD2F6F0058269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeUpTimeScheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D59527AC2BFD2F6F0058269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeUpTimeScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakeUpTimeScheduler";
+			};
+			name = Debug;
+		};
+		D59527AD2BFD2F6F0058269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeUpTimeScheduler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakeUpTimeScheduler";
+			};
+			name = Release;
+		};
+		D59527AF2BFD2F6F0058269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeUpTimeScheduler;
+			};
+			name = Debug;
+		};
+		D59527B02BFD2F6F0058269B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKL2F4F5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gangams.iOSSpellCatingSolutions.WakeUpTimeSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeUpTimeScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D595277F2BFD2F6D0058269B /* Build configuration list for PBXProject "WakeUpTimeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59527A62BFD2F6F0058269B /* Debug */,
+				D59527A72BFD2F6F0058269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59527A82BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59527A92BFD2F6F0058269B /* Debug */,
+				D59527AA2BFD2F6F0058269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59527AB2BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59527AC2BFD2F6F0058269B /* Debug */,
+				D59527AD2BFD2F6F0058269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59527AE2BFD2F6F0058269B /* Build configuration list for PBXNativeTarget "WakeUpTimeSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59527AF2BFD2F6F0058269B /* Debug */,
+				D59527B02BFD2F6F0058269B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D595277C2BFD2F6D0058269B /* Project object */;
+}
