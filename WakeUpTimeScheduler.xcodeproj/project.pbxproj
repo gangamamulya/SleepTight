@@ -14,6 +14,7 @@
 		D59527992BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527982BFD2F6F0058269B /* WakeUpTimeSchedulerTests.swift */; };
 		D59527A32BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527A22BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift */; };
 		D59527A52BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59527A42BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift */; };
+		D59527B22BFD41220058269B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D59527B12BFD41220058269B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D595279E2BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpTimeSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59527A22BFD2F6F0058269B /* WakeUpTimeSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerUITests.swift; sourceTree = "<group>"; };
 		D59527A42BFD2F6F0058269B /* WakeUpTimeSchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTimeSchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D59527B12BFD41220058269B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D59527872BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift */,
 				D59527892BFD2F6D0058269B /* ContentView.swift */,
+				D59527B12BFD41220058269B /* SleepCalculator.mlmodel */,
 				D595278B2BFD2F6F0058269B /* Assets.xcassets */,
 				D595278D2BFD2F6F0058269B /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59527B22BFD41220058269B /* SleepCalculator.mlmodel in Sources */,
 				D595278A2BFD2F6D0058269B /* ContentView.swift in Sources */,
 				D59527882BFD2F6D0058269B /* WakeUpTimeSchedulerApp.swift in Sources */,
 			);
